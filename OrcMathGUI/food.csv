@@ -1,0 +1,10 @@
+name, cuisine ,price, partOfDish
+sushi,japanese,10,false
+pizza,italian,3,false
+carrot,american,3,true
+beat,russian,5,true
+salad,american,11,false
+shredded turkey,american,8,true
+parmesian cheese,italian,9,true
+gnocchi,itailan,25,true
+pad thai,thainese,14,false
