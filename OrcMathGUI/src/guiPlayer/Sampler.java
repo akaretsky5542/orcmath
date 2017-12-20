@@ -126,7 +126,9 @@ public class Sampler extends GUIApplication implements FileRequester{
 				}
 			}); 
 			viewObjects.add(cb);
-			
+			viewObjects.add(new Food("sushi", "japanese", 10, false));
+			viewObjects.add(new Food("pizza", "italian", 3, false));
+
 			
 				
 				FileOpenButton fileButton = new FileOpenButton(490, 70, 120, 30, null,Sampler.this);
