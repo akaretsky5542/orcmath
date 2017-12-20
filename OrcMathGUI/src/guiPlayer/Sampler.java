@@ -126,14 +126,18 @@ public class Sampler extends GUIApplication implements FileRequester{
 				}
 			}); 
 			viewObjects.add(cb);
-			viewObjects.add(new Food("sushi", "japanese", 10, false));
-			viewObjects.add(new Food("pizza", "italian", 3, false));
-
-			
-				
-				FileOpenButton fileButton = new FileOpenButton(490, 70, 120, 30, null,Sampler.this);
-				viewObjects.add(fileButton);
-			
+//<<<<<<< HEAD
+//			viewObjects.add(new Food("sushi", "japanese", 10, false));
+//			viewObjects.add(new Food("pizza", "italian", 3, false));
+//
+//			
+//				
+//				FileOpenButton fileButton = new FileOpenButton(490, 70, 120, 30, null,Sampler.this);
+//				viewObjects.add(fileButton);
+//			
+//=======
+//			viewObjects.add(new Food());
+//>>>>>>> branch 'version2.2' of https://github.com/akaretsky5542/orcmath.git
 		}
 		
 		public void mouseDragged(MouseEvent m) {
